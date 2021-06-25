@@ -1,8 +1,8 @@
 # CassandraBDD
 
-### Apache Cassandra est un système de base de données distribuée très puissant, et particulièrement efficace pour prendre en charge de larges volumes d’enregistrements répartis sur de multiples serveurs. Ci-dessous un projet avec 3 nodes
+### Apache Cassandra est un système de base de données distribué très puissant, et particulièrement efficace pour prendre en charge de larges volumes d’enregistrements répartis sur de multiples serveurs. Ci-dessous un projet avec 3 nodes
 ----------------------------
-:warning: **Il fortement recommandé de tester le projet sous un environnement MAC ou LINUX et de supprimé le contenu du dossier /Data**
+:warning: **Il est fortement recommandé de tester le projet sous un environnement MAC ou LINUX et de supprimer le contenu du dossier /Data**
 
 
 ## Démarrer et tester le cluster
@@ -50,3 +50,8 @@ Insertion de valeur dans la table
 INSERT INTO emp (emp_id, emp_name, emp_city,
    emp_phone, emp_sal) VALUES(1,'ram', 'Hyderabad', 9848022338, 50000);
 ```
+Voir les valeurs présentes dans la table
+```console
+SELECT * from emp;
+```
+
