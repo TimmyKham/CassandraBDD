@@ -2,7 +2,7 @@
 
 ### Apache Cassandra est un système de base de données distribuée très puissant, et particulièrement efficace pour prendre en charge de larges volumes d’enregistrements répartis sur de multiples serveurs. Ci-dessous ce trouve un projet avec 3 nodes
 ----------------------------
-:warning: **Il fortement recommandé de tester le projet sous un environnement MAC ou LINUX et il faut supprimé le dossier /Data**
+:warning: **Il fortement recommandé de tester le projet sous un environnement MAC ou LINUX et de supprimé le contenu du dossier /Data**
 
 
 ## Démarrer et tester le cluster
