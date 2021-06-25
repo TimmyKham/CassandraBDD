@@ -32,7 +32,7 @@ docker exec -it cass1   cqlsh  -e "describe keyspaces"
 Toutes nos félicitations! Vous avez un cluster fonctionnel !
 
 
-## Ci-dessous quelques requêtes executer
+## Ci-dessous quelques requêtes :
 Création d'un keyspace
 ```console
 CREATE KEYSPACE tuto WITH replication = {'class':'SimpleStrategy', 'replication_factor' : 3};
